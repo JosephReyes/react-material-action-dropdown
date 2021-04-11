@@ -2,7 +2,8 @@ import React from 'react';
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import { Button, Menu, MenuItem } from '@material-ui/core';
 import Enzyme, { shallow } from 'enzyme';
-import { ActionDropdownMenu, MenuItemShape } from './action-dropdown-menu';
+import { ActionDropdownMenu } from './action-dropdown-menu';
+import { MenuItemShape } from "../index";
 
 Enzyme.configure({ adapter: new Adapter() });
 

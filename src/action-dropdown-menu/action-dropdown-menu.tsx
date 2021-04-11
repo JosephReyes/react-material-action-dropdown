@@ -2,12 +2,7 @@ import { Button, Divider, Menu, MenuItem, Typography } from '@material-ui/core';
 import { ArrowDropDown } from '@material-ui/icons';
 import React, { useState } from 'react';
 import { useStyles } from './action-dropdown-menu.styles';
-
-export interface MenuItemShape {
-  id: string;
-  text: string;
-  link: string;
-}
+import { MenuItemShape } from "../index";
 
 export function ActionDropdownMenu({
   menuItems,
