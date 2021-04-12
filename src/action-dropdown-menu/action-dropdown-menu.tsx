@@ -1,4 +1,4 @@
-import { Button, Divider, Menu, MenuItem, Typography } from '@material-ui/core';
+import { Button, Divider, Menu, MenuItem } from '@material-ui/core';
 import { ArrowDropDown } from '@material-ui/icons';
 import React, { useState } from 'react';
 import { useStyles } from './action-dropdown-menu.styles';
@@ -28,8 +28,8 @@ export function ActionDropdownMenu({
 
   return (
     <div className={classes.container}>
-      <Button className={classes.downloadButton} variant="contained" href={currentValue.link}>
-        <Typography variant="body1">{currentValue.text}</Typography>
+      <Button className={classes.actionButton} variant="contained" href={currentValue.link}>
+        <p>{currentValue.text}</p>
       </Button>
       <Divider className={classes.divider} flexItem={true} />
       <Button

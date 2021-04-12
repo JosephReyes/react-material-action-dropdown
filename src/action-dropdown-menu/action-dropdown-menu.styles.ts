@@ -5,8 +5,9 @@ export const useStyles = makeStyles(() => ({
     display: 'flex',
     justifyContent: 'center',
   },
-  downloadButton: {
+  actionButton: {
     borderRadius: '4px 0 0 4px',
+    marginRight: '0',
   },
   dropdownButton: {
     padding: '0 8px',

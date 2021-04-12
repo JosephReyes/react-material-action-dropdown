@@ -1,6 +1,6 @@
 {
   "name": "react-material-action-dropdown",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "https://github.com/JosephReyes",
   "description": "React Material component with dropdown menu and action button",
   "main": "dist/index.js",
@@ -13,13 +13,12 @@
     "test:once": "react-scripts test --reporters=default --reporters=jest-junit --watchAll=false"
   },
   "peerDependencies": {
-    "@material-ui/core": "^4.11.3",
-    "@material-ui/icons": "^4.11.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": ">= 17.0.2",
+    "react-dom": ">= 17.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.15",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@types/enzyme": "^3.10.8",
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
@@ -71,5 +70,10 @@
   "files": [
     "dist"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/JosephReyes/react-material-action-dropdown#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephReyes/react-material-action-dropdown.git"
+  }
 }
