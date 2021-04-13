@@ -1,6 +1,6 @@
 {
   "name": "react-material-action-dropdown",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "https://github.com/JosephReyes",
   "description": "React Material component with dropdown menu and action button",
   "main": "dist/index.js",

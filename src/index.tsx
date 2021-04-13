@@ -4,4 +4,4 @@ export interface MenuItemShape {
   link: string;
 }
 
-export { ActionDropdownMenu } from './action-dropdown-menu/action-dropdown-menu';
+export { ActionDropdownMenu } from "./action-dropdown-menu/action-dropdown-menu";

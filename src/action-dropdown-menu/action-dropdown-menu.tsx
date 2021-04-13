@@ -1,7 +1,7 @@
-import { Button, Divider, Menu, MenuItem } from '@material-ui/core';
-import { ArrowDropDown } from '@material-ui/icons';
-import React, { useState } from 'react';
-import { useStyles } from './action-dropdown-menu.styles';
+import { Button, Divider, Menu, MenuItem } from "@material-ui/core";
+import { ArrowDropDown } from "@material-ui/icons";
+import React, { useState } from "react";
+import { useStyles } from "./action-dropdown-menu.styles";
 import { MenuItemShape } from "../index";
 
 export function ActionDropdownMenu({
@@ -28,7 +28,11 @@ export function ActionDropdownMenu({
 
   return (
     <div className={classes.container}>
-      <Button className={classes.actionButton} variant="contained" href={currentValue.link}>
+      <Button
+        className={classes.actionButton}
+        variant="contained"
+        href={currentValue.link}
+      >
         <p>{currentValue.text}</p>
       </Button>
       <Divider className={classes.divider} flexItem={true} />
@@ -42,12 +46,12 @@ export function ActionDropdownMenu({
       <Menu
         anchorEl={anchorEl}
         anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'right',
+          vertical: "bottom",
+          horizontal: "right",
         }}
         transformOrigin={{
-          vertical: 'top',
-          horizontal: 'right',
+          vertical: "top",
+          horizontal: "right",
         }}
         open={!!anchorEl}
         onClose={() => setAnchorEl(null)}
